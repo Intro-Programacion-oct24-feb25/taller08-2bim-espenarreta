@@ -15,6 +15,15 @@ public class Problema01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+
+        String cadena = "";
+
+        for (int i = 30; i >= 10; i--) {
+            cadena = String.format("%s%d-%d-%d-%d\n", cadena,
+                    i, i * 2, i * 3, i * 4);
+        }
+        System.out.print(cadena);
+        
     }
-    
+
 }
